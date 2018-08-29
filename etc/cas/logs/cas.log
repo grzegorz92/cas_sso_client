@@ -1,0 +1,374 @@
+2018-08-29 15:00:29,727 DEBUG [org.apereo.cas.services.AbstractServicesManager] - <Loading services from [org.apereo.cas.services.ChainingServiceRegistry@7accdc1d]>
+2018-08-29 15:00:29,731 DEBUG [org.apereo.cas.services.AbstractServiceRegistry] - <Publishing event [CasRegisteredServiceLoadedEvent(registeredService=AbstractRegisteredService(serviceId=^(https|imaps)://.*, name=CASTest, theme=null, informationUrl=null, privacyUrl=null, responseType=null, id=1001, description=null, expirationPolicy=DefaultRegisteredServiceExpirationPolicy(deleteWhenExpired=false, notifyWhenDeleted=false, expirationDate=null), proxyPolicy=org.apereo.cas.services.RefuseRegisteredServiceProxyPolicy@1, evaluationOrder=10, usernameAttributeProvider=org.apereo.cas.services.DefaultRegisteredServiceUsernameProvider@87297e2, logoutType=BACK_CHANNEL, requiredHandlers=[], attributeReleasePolicy=ReturnAllowedAttributeReleasePolicy(super=AbstractRegisteredServiceAttributeReleasePolicy(attributeFilter=null, principalAttributesRepository=DefaultPrincipalAttributesRepository(), consentPolicy=DefaultRegisteredServiceConsentPolicy(enabled=true, excludedAttributes=null, includeOnlyAttributes=null), authorizedToReleaseCredentialPassword=false, authorizedToReleaseProxyGrantingTicket=false, excludeDefaultAttributes=false, authorizedToReleaseAuthenticationAttributes=true, principalIdAttribute=null), allowedAttributes=[]), multifactorPolicy=DefaultRegisteredServiceMultifactorPolicy(multifactorAuthenticationProviders=[], failureMode=NOT_SET, principalAttributeNameTrigger=null, principalAttributeValueToMatch=null, bypassEnabled=false), logo=null, logoutUrl=null, accessStrategy=DefaultRegisteredServiceAccessStrategy(order=0, enabled=true, ssoEnabled=true, unauthorizedRedirectUrl=null, delegatedAuthenticationPolicy=DefaultRegisteredServiceDelegatedAuthenticationPolicy(allowedProviders=[]), requireAllAttributes=true, requiredAttributes={}, rejectedAttributes={}, caseInsensitive=false), publicKey=null, properties={}, contacts=[]))]>
+2018-08-29 15:00:29,731 DEBUG [org.apereo.cas.services.AbstractServicesManager] - <Adding registered service [^(https|imaps)://.*]>
+2018-08-29 15:00:29,732 INFO [org.apereo.cas.services.AbstractServicesManager] - <Loaded [1] service(s) from [JsonServiceRegistry].>
+2018-08-29 15:01:29,734 DEBUG [org.apereo.cas.services.AbstractServicesManager] - <Loading services from [org.apereo.cas.services.ChainingServiceRegistry@7accdc1d]>
+2018-08-29 15:01:29,738 DEBUG [org.apereo.cas.services.AbstractServiceRegistry] - <Publishing event [CasRegisteredServiceLoadedEvent(registeredService=AbstractRegisteredService(serviceId=^(https|imaps)://.*, name=CASTest, theme=null, informationUrl=null, privacyUrl=null, responseType=null, id=1001, description=null, expirationPolicy=DefaultRegisteredServiceExpirationPolicy(deleteWhenExpired=false, notifyWhenDeleted=false, expirationDate=null), proxyPolicy=org.apereo.cas.services.RefuseRegisteredServiceProxyPolicy@1, evaluationOrder=10, usernameAttributeProvider=org.apereo.cas.services.DefaultRegisteredServiceUsernameProvider@87297e2, logoutType=BACK_CHANNEL, requiredHandlers=[], attributeReleasePolicy=ReturnAllowedAttributeReleasePolicy(super=AbstractRegisteredServiceAttributeReleasePolicy(attributeFilter=null, principalAttributesRepository=DefaultPrincipalAttributesRepository(), consentPolicy=DefaultRegisteredServiceConsentPolicy(enabled=true, excludedAttributes=null, includeOnlyAttributes=null), authorizedToReleaseCredentialPassword=false, authorizedToReleaseProxyGrantingTicket=false, excludeDefaultAttributes=false, authorizedToReleaseAuthenticationAttributes=true, principalIdAttribute=null), allowedAttributes=[]), multifactorPolicy=DefaultRegisteredServiceMultifactorPolicy(multifactorAuthenticationProviders=[], failureMode=NOT_SET, principalAttributeNameTrigger=null, principalAttributeValueToMatch=null, bypassEnabled=false), logo=null, logoutUrl=null, accessStrategy=DefaultRegisteredServiceAccessStrategy(order=0, enabled=true, ssoEnabled=true, unauthorizedRedirectUrl=null, delegatedAuthenticationPolicy=DefaultRegisteredServiceDelegatedAuthenticationPolicy(allowedProviders=[]), requireAllAttributes=true, requiredAttributes={}, rejectedAttributes={}, caseInsensitive=false), publicKey=null, properties={}, contacts=[]))]>
+2018-08-29 15:01:29,739 DEBUG [org.apereo.cas.services.AbstractServicesManager] - <Adding registered service [^(https|imaps)://.*]>
+2018-08-29 15:01:29,739 INFO [org.apereo.cas.services.AbstractServicesManager] - <Loaded [1] service(s) from [JsonServiceRegistry].>
+2018-08-29 15:01:35,056 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Creating new transaction with name [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner.clean]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'ticketTransactionManager'>
+2018-08-29 15:01:35,056 DEBUG [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner] - <Attempting to acquire ticket cleanup lock.>
+2018-08-29 15:01:35,056 DEBUG [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner] - <Acquired lock. Proceeding with cleanup.>
+2018-08-29 15:01:35,057 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=69078e062292ead821f1e87e8a810cfca165bd5d1bc0118223a11ec42959446501af7ed45ed0944d32a47f5614d07d35b367ecf4abc6ecf65bb3285c1afddae6)]>
+2018-08-29 15:01:35,058 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-2-********************************************************J6b9ZuR5MZ4MAGA]>
+2018-08-29 15:01:35,058 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:01:35,059 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:01:35,059 INFO [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner] - <[0] expired tickets removed.>
+2018-08-29 15:01:35,059 DEBUG [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner] - <Releasing ticket cleanup lock.>
+2018-08-29 15:01:35,060 DEBUG [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner] - <Finished ticket cleanup.>
+2018-08-29 15:01:35,060 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Initiating transaction commit>
+2018-08-29 15:01:57,793 DEBUG [org.apereo.cas.util.EncodingUtils] - <Decrypting value...>
+2018-08-29 15:01:57,794 DEBUG [org.apereo.cas.web.support.EncryptedCookieValueManager] - <Decoded cookie value is [TGT-1-********************************************************7TFvH2lLubYMAGA@127.0.0.1@Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36]>
+2018-08-29 15:01:57,794 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Creating new transaction with name [org.apereo.cas.ticket.registry.DefaultTicketRegistrySupport.getAuthenticatedPrincipalFrom]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'ticketTransactionManager'>
+2018-08-29 15:01:57,794 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [TGT-1-********************************************************7TFvH2lLubYMAGA] to [22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2]>
+2018-08-29 15:01:57,794 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:01:57,795 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:01:57,795 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Initiating transaction commit>
+2018-08-29 15:01:57,796 DEBUG [org.apereo.cas.config.CasWebAppConfiguration$1] - <Parsed cookie value [en] into locale 'en'>
+2018-08-29 15:01:57,799 DEBUG [org.apereo.cas.util.EncodingUtils] - <Decrypting value...>
+2018-08-29 15:01:57,800 DEBUG [org.apereo.cas.web.support.EncryptedCookieValueManager] - <Decoded cookie value is [TGT-1-********************************************************7TFvH2lLubYMAGA@127.0.0.1@Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36]>
+2018-08-29 15:01:57,801 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Creating new transaction with name [org.apereo.cas.ticket.registry.DefaultTicketRegistrySupport.getAuthenticationFrom]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'ticketTransactionManager'>
+2018-08-29 15:01:57,802 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [TGT-1-********************************************************7TFvH2lLubYMAGA] to [22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2]>
+2018-08-29 15:01:57,802 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:01:57,803 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:01:57,803 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Initiating transaction commit>
+2018-08-29 15:01:57,804 DEBUG [org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy] - <Skipping access strategy policy, since no attributes rules are defined>
+2018-08-29 15:01:57,804 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [result=Service Access Granted,service=https://localhost:8444/login,principal=SimplePrincipal(id=casuser, attributes={}),requiredAttributes={}]
+ACTION: SERVICE_ACCESS_ENFORCEMENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:57 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:57,804 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [result=Service Access Granted,service=https://localhost:8444/login,principal=SimplePrincipal(id=casuser, attributes={}),requiredAttributes={}]
+ACTION: SERVICE_ACCESS_ENFORCEMENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:57 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:57,806 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [event=success,timestamp=Wed Aug 29 15:01:57 CEST 2018,source=InitialAuthenticationAttemptWebflowEventResolver]
+ACTION: AUTHENTICATION_EVENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:57 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:57,806 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [event=success,timestamp=Wed Aug 29 15:01:57 CEST 2018,source=InitialAuthenticationAttemptWebflowEventResolver]
+ACTION: AUTHENTICATION_EVENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:57 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:57,807 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Creating new transaction with name [org.apereo.cas.DefaultCentralAuthenticationService.getTicket]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'ticketTransactionManager',+org.apereo.cas.ticket.InvalidTicketException>
+2018-08-29 15:01:57,807 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [TGT-1-********************************************************7TFvH2lLubYMAGA] to [22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2]>
+2018-08-29 15:01:57,808 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:01:57,808 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:01:57,809 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Initiating transaction commit>
+2018-08-29 15:01:57,809 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Creating new transaction with name [org.apereo.cas.ticket.registry.DefaultTicketRegistrySupport.getAuthenticationFrom]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'ticketTransactionManager'>
+2018-08-29 15:01:57,810 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [TGT-1-********************************************************7TFvH2lLubYMAGA] to [22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2]>
+2018-08-29 15:01:57,810 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:01:57,811 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:01:57,811 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Initiating transaction commit>
+2018-08-29 15:01:57,812 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Collecting authentication history based on [1] authentication events>
+2018-08-29 15:01:57,813 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Evaluating authentication principal [SimplePrincipal(id=casuser, attributes={})] for inclusion in result>
+2018-08-29 15:01:57,813 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Collected principal attributes [{}] for inclusion in this result for principal [casuser]>
+2018-08-29 15:01:57,813 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Collected single authentication attribute [credentialType] -> [UsernamePasswordCredential]>
+2018-08-29 15:01:57,814 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Collected single authentication attribute [authenticationMethod] -> [AcceptUsersAuthenticationHandler]>
+2018-08-29 15:01:57,814 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Collected single authentication attribute [successfulAuthenticationHandlers] -> [[AcceptUsersAuthenticationHandler]]>
+2018-08-29 15:01:57,815 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Finalized authentication attributes [{credentialType=UsernamePasswordCredential, authenticationMethod=AcceptUsersAuthenticationHandler, successfulAuthenticationHandlers=[AcceptUsersAuthenticationHandler]}] for inclusion in this authentication result>
+2018-08-29 15:01:57,815 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationBuilder] - <Recording authentication handler result success under key [AcceptUsersAuthenticationHandler]>
+2018-08-29 15:01:57,816 DEBUG [org.apereo.cas.authentication.DefaultPrincipalElectionStrategy] - <Nominated [SimplePrincipal(id=casuser, attributes={})] as the primary principal>
+2018-08-29 15:01:57,816 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Determined primary authentication principal to be [SimplePrincipal(id=casuser, attributes={})]>
+2018-08-29 15:01:57,816 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Collected authentication attributes for this result are [{credentialType=UsernamePasswordCredential, authenticationMethod=AcceptUsersAuthenticationHandler, successfulAuthenticationHandlers=[AcceptUsersAuthenticationHandler]}]>
+2018-08-29 15:01:57,817 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Authentication result commenced at [2018-08-29T15:01:57.817+02:00[Europe/Belgrade]]>
+2018-08-29 15:01:57,817 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Building an authentication result for authentication [org.apereo.cas.authentication.DefaultAuthentication@eebe4e6d] and service [AbstractWebApplicationService(id=https://localhost:8444/login, originalUrl=https://localhost:8444/login, artifactId=null, principal=null, source=service, loggedOutAlready=false, format=XML, attributes={})]>
+2018-08-29 15:01:57,817 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Creating new transaction with name [org.apereo.cas.DefaultCentralAuthenticationService.grantServiceTicket]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'ticketTransactionManager'>
+2018-08-29 15:01:57,818 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [TGT-1-********************************************************7TFvH2lLubYMAGA] to [22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2]>
+2018-08-29 15:01:57,818 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:01:57,819 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:01:57,820 DEBUG [org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy] - <Skipping access strategy policy, since no attributes rules are defined>
+2018-08-29 15:01:57,821 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [result=Service Access Granted,service=https://localhost:8444/login,requiredAttributes={}]
+ACTION: SERVICE_ACCESS_ENFORCEMENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:57 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:57,821 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [result=Service Access Granted,service=https://localhost:8444/login,requiredAttributes={}]
+ACTION: SERVICE_ACCESS_ENFORCEMENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:57 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:57,821 DEBUG [org.apereo.cas.services.RegisteredServiceAccessStrategyUtils] - <Current authentication via ticket [TGT-1-********************************************************7TFvH2lLubYMAGA] allows service [https://localhost:8444/login] to participate in the existing SSO session>
+2018-08-29 15:01:57,822 DEBUG [org.apereo.cas.ticket.factory.DefaultServiceTicketFactory] - <Looking up service ticket id generator for [org.apereo.cas.authentication.principal.SimpleWebApplicationServiceImpl]>
+2018-08-29 15:01:57,823 DEBUG [org.apereo.cas.ticket.factory.DefaultServiceTicketFactory] - <Attempting to encode service ticket [ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA]>
+2018-08-29 15:01:57,824 DEBUG [org.apereo.cas.ticket.factory.DefaultServiceTicketFactory] - <Encoded service ticket id [ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA]>
+2018-08-29 15:01:57,824 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoding ticket [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:01:57,825 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [TGT-1-********************************************************7TFvH2lLubYMAGA] to [22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2]>
+2018-08-29 15:01:57,826 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Created encoded ticket [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:01:57,826 DEBUG [org.apereo.cas.ticket.registry.AbstractMapBasedTicketRegistry] - <Added ticket [TGT-1-********************************************************7TFvH2lLubYMAGA] to registry.>
+2018-08-29 15:01:57,826 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoding ticket [ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA]>
+2018-08-29 15:01:57,827 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA] to [7b1572463eb85032ed59260636b60ecf0ee900b98b45ba91e80848d6c3287b896af2fcd5491daff3283f954b359ed5e0cb076cf2766970ee53914e202a070882]>
+2018-08-29 15:01:57,827 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Created encoded ticket [EncodedTicket(id=7b1572463eb85032ed59260636b60ecf0ee900b98b45ba91e80848d6c3287b896af2fcd5491daff3283f954b359ed5e0cb076cf2766970ee53914e202a070882)]>
+2018-08-29 15:01:57,828 DEBUG [org.apereo.cas.ticket.registry.AbstractMapBasedTicketRegistry] - <Added ticket [ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA] to registry.>
+2018-08-29 15:01:57,828 INFO [org.apereo.cas.DefaultCentralAuthenticationService] - <Granted ticket [ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA] for service [https://localhost:8444/login] and principal [casuser]>
+2018-08-29 15:01:57,829 DEBUG [org.apereo.cas.AbstractCentralAuthenticationService] - <Publishing [CasServiceTicketGrantedEvent(ticketGrantingTicket=TGT-1-********************************************************7TFvH2lLubYMAGA, serviceTicket=ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA)]>
+2018-08-29 15:01:57,829 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: casuser
+WHAT: ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA for https://localhost:8444/login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:57 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:57,829 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: casuser
+WHAT: ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA for https://localhost:8444/login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:57 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:57,830 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Initiating transaction commit>
+2018-08-29 15:01:57,830 DEBUG [org.apereo.cas.authentication.principal.DefaultResponse] - <Sanitized URL for redirect response is [https://localhost:8444/login]>
+2018-08-29 15:01:57,831 DEBUG [org.apereo.cas.authentication.principal.DefaultResponse] - <Final redirect response is [https://localhost:8444/login?ticket=ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA]>
+2018-08-29 15:01:58,153 DEBUG [org.apereo.cas.util.EncodingUtils] - <Decrypting value...>
+2018-08-29 15:01:58,154 DEBUG [org.apereo.cas.web.support.EncryptedCookieValueManager] - <Decoded cookie value is [TGT-1-********************************************************7TFvH2lLubYMAGA@127.0.0.1@Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36]>
+2018-08-29 15:01:58,154 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Creating new transaction with name [org.apereo.cas.ticket.registry.DefaultTicketRegistrySupport.getAuthenticatedPrincipalFrom]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'ticketTransactionManager'>
+2018-08-29 15:01:58,154 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [TGT-1-********************************************************7TFvH2lLubYMAGA] to [22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2]>
+2018-08-29 15:01:58,154 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:01:58,155 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:01:58,155 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Initiating transaction commit>
+2018-08-29 15:01:58,155 DEBUG [org.apereo.cas.config.CasWebAppConfiguration$1] - <Parsed cookie value [en] into locale 'en'>
+2018-08-29 15:01:58,158 DEBUG [org.apereo.cas.util.EncodingUtils] - <Decrypting value...>
+2018-08-29 15:01:58,159 DEBUG [org.apereo.cas.web.support.EncryptedCookieValueManager] - <Decoded cookie value is [TGT-1-********************************************************7TFvH2lLubYMAGA@127.0.0.1@Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36]>
+2018-08-29 15:01:58,159 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Creating new transaction with name [org.apereo.cas.ticket.registry.DefaultTicketRegistrySupport.getAuthenticationFrom]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'ticketTransactionManager'>
+2018-08-29 15:01:58,160 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [TGT-1-********************************************************7TFvH2lLubYMAGA] to [22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2]>
+2018-08-29 15:01:58,160 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:01:58,161 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:01:58,161 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Initiating transaction commit>
+2018-08-29 15:01:58,162 DEBUG [org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy] - <Skipping access strategy policy, since no attributes rules are defined>
+2018-08-29 15:01:58,162 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [result=Service Access Granted,service=https://localhost:8444/login,principal=SimplePrincipal(id=casuser, attributes={}),requiredAttributes={}]
+ACTION: SERVICE_ACCESS_ENFORCEMENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:58 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:58,162 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [result=Service Access Granted,service=https://localhost:8444/login,principal=SimplePrincipal(id=casuser, attributes={}),requiredAttributes={}]
+ACTION: SERVICE_ACCESS_ENFORCEMENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:58 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:58,164 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [event=success,timestamp=Wed Aug 29 15:01:58 CEST 2018,source=InitialAuthenticationAttemptWebflowEventResolver]
+ACTION: AUTHENTICATION_EVENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:58 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:58,164 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [event=success,timestamp=Wed Aug 29 15:01:58 CEST 2018,source=InitialAuthenticationAttemptWebflowEventResolver]
+ACTION: AUTHENTICATION_EVENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:58 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:58,164 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Creating new transaction with name [org.apereo.cas.DefaultCentralAuthenticationService.getTicket]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'ticketTransactionManager',+org.apereo.cas.ticket.InvalidTicketException>
+2018-08-29 15:01:58,165 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [TGT-1-********************************************************7TFvH2lLubYMAGA] to [22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2]>
+2018-08-29 15:01:58,165 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:01:58,166 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:01:58,166 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Initiating transaction commit>
+2018-08-29 15:01:58,167 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Creating new transaction with name [org.apereo.cas.ticket.registry.DefaultTicketRegistrySupport.getAuthenticationFrom]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'ticketTransactionManager'>
+2018-08-29 15:01:58,167 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [TGT-1-********************************************************7TFvH2lLubYMAGA] to [22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2]>
+2018-08-29 15:01:58,167 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:01:58,168 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:01:58,168 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Initiating transaction commit>
+2018-08-29 15:01:58,169 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Collecting authentication history based on [1] authentication events>
+2018-08-29 15:01:58,169 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Evaluating authentication principal [SimplePrincipal(id=casuser, attributes={})] for inclusion in result>
+2018-08-29 15:01:58,169 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Collected principal attributes [{}] for inclusion in this result for principal [casuser]>
+2018-08-29 15:01:58,169 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Collected single authentication attribute [credentialType] -> [UsernamePasswordCredential]>
+2018-08-29 15:01:58,169 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Collected single authentication attribute [authenticationMethod] -> [AcceptUsersAuthenticationHandler]>
+2018-08-29 15:01:58,170 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Collected single authentication attribute [successfulAuthenticationHandlers] -> [[AcceptUsersAuthenticationHandler]]>
+2018-08-29 15:01:58,170 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Finalized authentication attributes [{credentialType=UsernamePasswordCredential, authenticationMethod=AcceptUsersAuthenticationHandler, successfulAuthenticationHandlers=[AcceptUsersAuthenticationHandler]}] for inclusion in this authentication result>
+2018-08-29 15:01:58,170 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationBuilder] - <Recording authentication handler result success under key [AcceptUsersAuthenticationHandler]>
+2018-08-29 15:01:58,171 DEBUG [org.apereo.cas.authentication.DefaultPrincipalElectionStrategy] - <Nominated [SimplePrincipal(id=casuser, attributes={})] as the primary principal>
+2018-08-29 15:01:58,171 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Determined primary authentication principal to be [SimplePrincipal(id=casuser, attributes={})]>
+2018-08-29 15:01:58,171 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Collected authentication attributes for this result are [{credentialType=UsernamePasswordCredential, authenticationMethod=AcceptUsersAuthenticationHandler, successfulAuthenticationHandlers=[AcceptUsersAuthenticationHandler]}]>
+2018-08-29 15:01:58,171 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Authentication result commenced at [2018-08-29T15:01:58.171+02:00[Europe/Belgrade]]>
+2018-08-29 15:01:58,172 DEBUG [org.apereo.cas.authentication.DefaultAuthenticationResultBuilder] - <Building an authentication result for authentication [org.apereo.cas.authentication.DefaultAuthentication@f472cced] and service [AbstractWebApplicationService(id=https://localhost:8444/login, originalUrl=https://localhost:8444/login, artifactId=null, principal=null, source=service, loggedOutAlready=false, format=XML, attributes={})]>
+2018-08-29 15:01:58,172 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Creating new transaction with name [org.apereo.cas.DefaultCentralAuthenticationService.grantServiceTicket]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'ticketTransactionManager'>
+2018-08-29 15:01:58,172 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [TGT-1-********************************************************7TFvH2lLubYMAGA] to [22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2]>
+2018-08-29 15:01:58,172 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:01:58,173 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:01:58,174 DEBUG [org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy] - <Skipping access strategy policy, since no attributes rules are defined>
+2018-08-29 15:01:58,174 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [result=Service Access Granted,service=https://localhost:8444/login,requiredAttributes={}]
+ACTION: SERVICE_ACCESS_ENFORCEMENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:58 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:58,174 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [result=Service Access Granted,service=https://localhost:8444/login,requiredAttributes={}]
+ACTION: SERVICE_ACCESS_ENFORCEMENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:58 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:58,175 DEBUG [org.apereo.cas.services.RegisteredServiceAccessStrategyUtils] - <Current authentication via ticket [TGT-1-********************************************************7TFvH2lLubYMAGA] allows service [https://localhost:8444/login] to participate in the existing SSO session>
+2018-08-29 15:01:58,176 DEBUG [org.apereo.cas.ticket.factory.DefaultServiceTicketFactory] - <Looking up service ticket id generator for [org.apereo.cas.authentication.principal.SimpleWebApplicationServiceImpl]>
+2018-08-29 15:01:58,176 DEBUG [org.apereo.cas.ticket.factory.DefaultServiceTicketFactory] - <Attempting to encode service ticket [ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA]>
+2018-08-29 15:01:58,176 DEBUG [org.apereo.cas.ticket.factory.DefaultServiceTicketFactory] - <Encoded service ticket id [ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA]>
+2018-08-29 15:01:58,177 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoding ticket [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:01:58,178 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [TGT-1-********************************************************7TFvH2lLubYMAGA] to [22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2]>
+2018-08-29 15:01:58,178 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Created encoded ticket [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:01:58,178 DEBUG [org.apereo.cas.ticket.registry.AbstractMapBasedTicketRegistry] - <Added ticket [TGT-1-********************************************************7TFvH2lLubYMAGA] to registry.>
+2018-08-29 15:01:58,179 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoding ticket [ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA]>
+2018-08-29 15:01:58,179 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA] to [05b1b3422671f1d8a1e21aa68d0355da88becdb282ecb6af113be3cf30e85591b37b30265e654a95032e6d44a2fb5aab73b1d320841c480b4d44c20232ee3ff1]>
+2018-08-29 15:01:58,180 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Created encoded ticket [EncodedTicket(id=05b1b3422671f1d8a1e21aa68d0355da88becdb282ecb6af113be3cf30e85591b37b30265e654a95032e6d44a2fb5aab73b1d320841c480b4d44c20232ee3ff1)]>
+2018-08-29 15:01:58,180 DEBUG [org.apereo.cas.ticket.registry.AbstractMapBasedTicketRegistry] - <Added ticket [ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA] to registry.>
+2018-08-29 15:01:58,180 INFO [org.apereo.cas.DefaultCentralAuthenticationService] - <Granted ticket [ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA] for service [https://localhost:8444/login] and principal [casuser]>
+2018-08-29 15:01:58,180 DEBUG [org.apereo.cas.AbstractCentralAuthenticationService] - <Publishing [CasServiceTicketGrantedEvent(ticketGrantingTicket=TGT-1-********************************************************7TFvH2lLubYMAGA, serviceTicket=ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA)]>
+2018-08-29 15:01:58,181 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: casuser
+WHAT: ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA for https://localhost:8444/login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:58 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:58,181 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - <Audit trail record BEGIN
+=============================================================
+WHO: casuser
+WHAT: ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA for https://localhost:8444/login
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Wed Aug 29 15:01:58 CEST 2018
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+>
+2018-08-29 15:01:58,181 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Initiating transaction commit>
+2018-08-29 15:01:58,182 DEBUG [org.apereo.cas.authentication.principal.DefaultResponse] - <Sanitized URL for redirect response is [https://localhost:8444/login]>
+2018-08-29 15:01:58,182 DEBUG [org.apereo.cas.authentication.principal.DefaultResponse] - <Final redirect response is [https://localhost:8444/login?ticket=ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA]>
+2018-08-29 15:02:29,741 DEBUG [org.apereo.cas.services.AbstractServicesManager] - <Loading services from [org.apereo.cas.services.ChainingServiceRegistry@7accdc1d]>
+2018-08-29 15:02:29,745 DEBUG [org.apereo.cas.services.AbstractServiceRegistry] - <Publishing event [CasRegisteredServiceLoadedEvent(registeredService=AbstractRegisteredService(serviceId=^(https|imaps)://.*, name=CASTest, theme=null, informationUrl=null, privacyUrl=null, responseType=null, id=1001, description=null, expirationPolicy=DefaultRegisteredServiceExpirationPolicy(deleteWhenExpired=false, notifyWhenDeleted=false, expirationDate=null), proxyPolicy=org.apereo.cas.services.RefuseRegisteredServiceProxyPolicy@1, evaluationOrder=10, usernameAttributeProvider=org.apereo.cas.services.DefaultRegisteredServiceUsernameProvider@87297e2, logoutType=BACK_CHANNEL, requiredHandlers=[], attributeReleasePolicy=ReturnAllowedAttributeReleasePolicy(super=AbstractRegisteredServiceAttributeReleasePolicy(attributeFilter=null, principalAttributesRepository=DefaultPrincipalAttributesRepository(), consentPolicy=DefaultRegisteredServiceConsentPolicy(enabled=true, excludedAttributes=null, includeOnlyAttributes=null), authorizedToReleaseCredentialPassword=false, authorizedToReleaseProxyGrantingTicket=false, excludeDefaultAttributes=false, authorizedToReleaseAuthenticationAttributes=true, principalIdAttribute=null), allowedAttributes=[]), multifactorPolicy=DefaultRegisteredServiceMultifactorPolicy(multifactorAuthenticationProviders=[], failureMode=NOT_SET, principalAttributeNameTrigger=null, principalAttributeValueToMatch=null, bypassEnabled=false), logo=null, logoutUrl=null, accessStrategy=DefaultRegisteredServiceAccessStrategy(order=0, enabled=true, ssoEnabled=true, unauthorizedRedirectUrl=null, delegatedAuthenticationPolicy=DefaultRegisteredServiceDelegatedAuthenticationPolicy(allowedProviders=[]), requireAllAttributes=true, requiredAttributes={}, rejectedAttributes={}, caseInsensitive=false), publicKey=null, properties={}, contacts=[]))]>
+2018-08-29 15:02:29,745 DEBUG [org.apereo.cas.services.AbstractServicesManager] - <Adding registered service [^(https|imaps)://.*]>
+2018-08-29 15:02:29,745 INFO [org.apereo.cas.services.AbstractServicesManager] - <Loaded [1] service(s) from [JsonServiceRegistry].>
+2018-08-29 15:03:29,748 DEBUG [org.apereo.cas.services.AbstractServicesManager] - <Loading services from [org.apereo.cas.services.ChainingServiceRegistry@7accdc1d]>
+2018-08-29 15:03:29,752 DEBUG [org.apereo.cas.services.AbstractServiceRegistry] - <Publishing event [CasRegisteredServiceLoadedEvent(registeredService=AbstractRegisteredService(serviceId=^(https|imaps)://.*, name=CASTest, theme=null, informationUrl=null, privacyUrl=null, responseType=null, id=1001, description=null, expirationPolicy=DefaultRegisteredServiceExpirationPolicy(deleteWhenExpired=false, notifyWhenDeleted=false, expirationDate=null), proxyPolicy=org.apereo.cas.services.RefuseRegisteredServiceProxyPolicy@1, evaluationOrder=10, usernameAttributeProvider=org.apereo.cas.services.DefaultRegisteredServiceUsernameProvider@87297e2, logoutType=BACK_CHANNEL, requiredHandlers=[], attributeReleasePolicy=ReturnAllowedAttributeReleasePolicy(super=AbstractRegisteredServiceAttributeReleasePolicy(attributeFilter=null, principalAttributesRepository=DefaultPrincipalAttributesRepository(), consentPolicy=DefaultRegisteredServiceConsentPolicy(enabled=true, excludedAttributes=null, includeOnlyAttributes=null), authorizedToReleaseCredentialPassword=false, authorizedToReleaseProxyGrantingTicket=false, excludeDefaultAttributes=false, authorizedToReleaseAuthenticationAttributes=true, principalIdAttribute=null), allowedAttributes=[]), multifactorPolicy=DefaultRegisteredServiceMultifactorPolicy(multifactorAuthenticationProviders=[], failureMode=NOT_SET, principalAttributeNameTrigger=null, principalAttributeValueToMatch=null, bypassEnabled=false), logo=null, logoutUrl=null, accessStrategy=DefaultRegisteredServiceAccessStrategy(order=0, enabled=true, ssoEnabled=true, unauthorizedRedirectUrl=null, delegatedAuthenticationPolicy=DefaultRegisteredServiceDelegatedAuthenticationPolicy(allowedProviders=[]), requireAllAttributes=true, requiredAttributes={}, rejectedAttributes={}, caseInsensitive=false), publicKey=null, properties={}, contacts=[]))]>
+2018-08-29 15:03:29,752 DEBUG [org.apereo.cas.services.AbstractServicesManager] - <Adding registered service [^(https|imaps)://.*]>
+2018-08-29 15:03:29,753 INFO [org.apereo.cas.services.AbstractServicesManager] - <Loaded [1] service(s) from [JsonServiceRegistry].>
+2018-08-29 15:03:35,063 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Creating new transaction with name [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner.clean]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'ticketTransactionManager'>
+2018-08-29 15:03:35,063 DEBUG [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner] - <Attempting to acquire ticket cleanup lock.>
+2018-08-29 15:03:35,063 DEBUG [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner] - <Acquired lock. Proceeding with cleanup.>
+2018-08-29 15:03:35,063 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=05b1b3422671f1d8a1e21aa68d0355da88becdb282ecb6af113be3cf30e85591b37b30265e654a95032e6d44a2fb5aab73b1d320841c480b4d44c20232ee3ff1)]>
+2018-08-29 15:03:35,065 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA]>
+2018-08-29 15:03:35,065 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=69078e062292ead821f1e87e8a810cfca165bd5d1bc0118223a11ec42959446501af7ed45ed0944d32a47f5614d07d35b367ecf4abc6ecf65bb3285c1afddae6)]>
+2018-08-29 15:03:35,066 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-2-********************************************************J6b9ZuR5MZ4MAGA]>
+2018-08-29 15:03:35,066 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=7b1572463eb85032ed59260636b60ecf0ee900b98b45ba91e80848d6c3287b896af2fcd5491daff3283f954b359ed5e0cb076cf2766970ee53914e202a070882)]>
+2018-08-29 15:03:35,067 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA]>
+2018-08-29 15:03:35,067 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=22770c0952b6f0753edb326a7640631aaa666b46f40f8ea42c641c599d47867bf3dc295fe59f4a0e5c9294a70d0da7bb39e3829a17422f117495b5db9c0b11f2)]>
+2018-08-29 15:03:35,068 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [TGT-1-********************************************************7TFvH2lLubYMAGA]>
+2018-08-29 15:03:35,069 DEBUG [org.apereo.cas.ticket.support.MultiTimeUseOrTimeoutExpirationPolicy] - <Ticket has expired because the difference between current time [2018-08-29T13:03:35.069Z] and ticket time [2018-08-29T13:01:58.177Z] is greater than or equal to [10].>
+2018-08-29 15:03:35,069 DEBUG [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner] - <Cleaning up expired service ticket [ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA]>
+2018-08-29 15:03:35,069 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA] to [05b1b3422671f1d8a1e21aa68d0355da88becdb282ecb6af113be3cf30e85591b37b30265e654a95032e6d44a2fb5aab73b1d320841c480b4d44c20232ee3ff1]>
+2018-08-29 15:03:35,069 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=05b1b3422671f1d8a1e21aa68d0355da88becdb282ecb6af113be3cf30e85591b37b30265e654a95032e6d44a2fb5aab73b1d320841c480b4d44c20232ee3ff1)]>
+2018-08-29 15:03:35,070 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA]>
+2018-08-29 15:03:35,070 DEBUG [org.apereo.cas.ticket.support.MultiTimeUseOrTimeoutExpirationPolicy] - <Ticket has expired because the difference between current time [2018-08-29T13:03:35.070Z] and ticket time [2018-08-29T13:01:58.177Z] is greater than or equal to [10].>
+2018-08-29 15:03:35,071 DEBUG [org.apereo.cas.ticket.registry.AbstractMapBasedTicketRegistry] - <Ticket [ST-14-TSbMke87sbVeXYNKU3DllWba57kMAGA] has expired and is now removed from the cache>
+2018-08-29 15:03:35,071 DEBUG [org.apereo.cas.ticket.support.MultiTimeUseOrTimeoutExpirationPolicy] - <Ticket has expired because the difference between current time [2018-08-29T13:03:35.071Z] and ticket time [2018-08-29T13:01:57.824Z] is greater than or equal to [10].>
+2018-08-29 15:03:35,071 DEBUG [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner] - <Cleaning up expired service ticket [ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA]>
+2018-08-29 15:03:35,071 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Encoded original ticket id [ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA] to [7b1572463eb85032ed59260636b60ecf0ee900b98b45ba91e80848d6c3287b896af2fcd5491daff3283f954b359ed5e0cb076cf2766970ee53914e202a070882]>
+2018-08-29 15:03:35,071 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Attempting to decode [EncodedTicket(id=7b1572463eb85032ed59260636b60ecf0ee900b98b45ba91e80848d6c3287b896af2fcd5491daff3283f954b359ed5e0cb076cf2766970ee53914e202a070882)]>
+2018-08-29 15:03:35,072 DEBUG [org.apereo.cas.ticket.registry.AbstractTicketRegistry] - <Decoded ticket to [ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA]>
+2018-08-29 15:03:35,072 DEBUG [org.apereo.cas.ticket.support.MultiTimeUseOrTimeoutExpirationPolicy] - <Ticket has expired because the difference between current time [2018-08-29T13:03:35.072Z] and ticket time [2018-08-29T13:01:57.824Z] is greater than or equal to [10].>
+2018-08-29 15:03:35,073 DEBUG [org.apereo.cas.ticket.registry.AbstractMapBasedTicketRegistry] - <Ticket [ST-13-0FELWrrFROWOE231Y26h4GPwGVsMAGA] has expired and is now removed from the cache>
+2018-08-29 15:03:35,073 INFO [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner] - <[0] expired tickets removed.>
+2018-08-29 15:03:35,073 DEBUG [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner] - <Releasing ticket cleanup lock.>
+2018-08-29 15:03:35,073 DEBUG [org.apereo.cas.ticket.registry.DefaultTicketRegistryCleaner] - <Finished ticket cleanup.>
+2018-08-29 15:03:35,073 DEBUG [org.apereo.cas.authentication.PseudoPlatformTransactionManager] - <Initiating transaction commit>
+2018-08-29 15:04:29,755 DEBUG [org.apereo.cas.services.AbstractServicesManager] - <Loading services from [org.apereo.cas.services.ChainingServiceRegistry@7accdc1d]>
+2018-08-29 15:04:29,759 DEBUG [org.apereo.cas.services.AbstractServiceRegistry] - <Publishing event [CasRegisteredServiceLoadedEvent(registeredService=AbstractRegisteredService(serviceId=^(https|imaps)://.*, name=CASTest, theme=null, informationUrl=null, privacyUrl=null, responseType=null, id=1001, description=null, expirationPolicy=DefaultRegisteredServiceExpirationPolicy(deleteWhenExpired=false, notifyWhenDeleted=false, expirationDate=null), proxyPolicy=org.apereo.cas.services.RefuseRegisteredServiceProxyPolicy@1, evaluationOrder=10, usernameAttributeProvider=org.apereo.cas.services.DefaultRegisteredServiceUsernameProvider@87297e2, logoutType=BACK_CHANNEL, requiredHandlers=[], attributeReleasePolicy=ReturnAllowedAttributeReleasePolicy(super=AbstractRegisteredServiceAttributeReleasePolicy(attributeFilter=null, principalAttributesRepository=DefaultPrincipalAttributesRepository(), consentPolicy=DefaultRegisteredServiceConsentPolicy(enabled=true, excludedAttributes=null, includeOnlyAttributes=null), authorizedToReleaseCredentialPassword=false, authorizedToReleaseProxyGrantingTicket=false, excludeDefaultAttributes=false, authorizedToReleaseAuthenticationAttributes=true, principalIdAttribute=null), allowedAttributes=[]), multifactorPolicy=DefaultRegisteredServiceMultifactorPolicy(multifactorAuthenticationProviders=[], failureMode=NOT_SET, principalAttributeNameTrigger=null, principalAttributeValueToMatch=null, bypassEnabled=false), logo=null, logoutUrl=null, accessStrategy=DefaultRegisteredServiceAccessStrategy(order=0, enabled=true, ssoEnabled=true, unauthorizedRedirectUrl=null, delegatedAuthenticationPolicy=DefaultRegisteredServiceDelegatedAuthenticationPolicy(allowedProviders=[]), requireAllAttributes=true, requiredAttributes={}, rejectedAttributes={}, caseInsensitive=false), publicKey=null, properties={}, contacts=[]))]>
+2018-08-29 15:04:29,759 DEBUG [org.apereo.cas.services.AbstractServicesManager] - <Adding registered service [^(https|imaps)://.*]>
+2018-08-29 15:04:29,760 INFO [org.apereo.cas.services.AbstractServicesManager] - <Loaded [1] service(s) from [JsonServiceRegistry].>
