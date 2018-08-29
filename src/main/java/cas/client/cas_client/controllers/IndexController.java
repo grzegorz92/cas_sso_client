@@ -1,7 +1,7 @@
 package cas.client.cas_client.controllers;
 
 //import net.unicon.cas.client.configuration.EnableCasClient;
-import net.unicon.cas.client.configuration.EnableCasClient;
+//import net.unicon.cas.client.configuration.EnableCasClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
